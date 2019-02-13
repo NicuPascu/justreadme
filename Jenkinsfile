@@ -18,7 +18,6 @@ pipeline {
             script {
               sh 'for i in `seq 1 10`; do echo "Sleeping 1S"; sleep 1; done'
             }
-            
           }
         }
       }
